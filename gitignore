@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Uploaded videos
+uploads/
+
+# Editor settings
+.vscode/
+
+# Logs
+*.log
+
+# Large / binary models (downloaded dynamically from GitHub at startup)
+*.keras
+*.pkl
+models/*.keras
+models/*.pkl
